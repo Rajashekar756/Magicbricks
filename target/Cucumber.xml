@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="1" time="7.344356">
+    <testcase classname="Checking the user is able to connect with Vastu services." name="To validate the user should be able to connect with Vastu services." time="7.344356">
+        <skipped><![CDATA[Given user is on home page..................................................passed
+When I Click on the sell button.............................................passed
+And Click on the vastu services.............................................pending
+And Click on to add to my ordres............................................skipped
+Then Click on go to cart....................................................skipped
+Then Click on payment.......................................................skipped
+]]></skipped>
+    </testcase>
+</testsuite>

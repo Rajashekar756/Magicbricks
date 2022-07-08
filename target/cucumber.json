@@ -1,0 +1,121 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2192556700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Vastuservices.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "To validate the user should be able to connect with Vastu services.",
+        "description": "",
+        "id": "checking-the-user-is-able-to-connect-with-vastu-services.;to-validate-the-user-should-be-able-to-connect-with-vastu-services.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4386654000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is on home page",
+            "match": {
+              "location": "Vastuservices.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 725036600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Click on the sell button",
+            "match": {
+              "location": "Vastuservices.i_Click_on_the_sell_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat magicbricks_step_definitions.Vastuservices.click_on_the_vastu_services(Vastuservices.java:88)\r\n\tat ✽.Click on the vastu services.(MAGicbricks/Vastuservices.feature:7)\r\n",
+              "duration": 8011700,
+              "status": "pending"
+            },
+            "line": 7,
+            "name": "Click on the vastu services.",
+            "match": {
+              "location": "Vastuservices.click_on_the_vastu_services()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 695700,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Click on to add to my ordres.",
+            "match": {
+              "location": "Vastuservices.click_on_to_add_to_my_ordres()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1133000,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on go to cart.",
+            "match": {
+              "location": "Vastuservices.click_on_go_to_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 494400,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "Click on payment.",
+            "match": {
+              "location": "Vastuservices.click_on_payment()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Vastuservices"
+          }
+        ]
+      }
+    ],
+    "name": "Checking the user is able to connect with Vastu services.",
+    "description": "",
+    "id": "checking-the-user-is-able-to-connect-with-vastu-services.",
+    "keyword": "Feature",
+    "uri": "MAGicbricks/Vastuservices.feature",
+    "tags": [
+      {
+        "name": "@Vastuservices",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
